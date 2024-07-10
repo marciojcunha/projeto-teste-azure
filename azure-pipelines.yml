@@ -7,9 +7,10 @@ trigger:
 
 resources:
 - repo: self
+name:  fedora
 
 variables:
-  tag: '$(Build.BuildId)'
+  tag: '$(Build.BuildId)'  
 
 stages:
 - stage: Build
